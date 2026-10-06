@@ -45,6 +45,37 @@ img{
     flex-direction: column;
     padding: 5px;
 }
+.planos{
+ justify-content: start;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.palnosbasico{
+    background-color: rgb(74, 68, 61); 
+    padding: 50px;
+    border-radius: 10px;
+    
+   
+}
+.palnosmedio{
+    
+  flex-wrap: wrap;
+    background-color: antiquewhite; 
+    padding: 10px;
+    border-radius: 10px;
+    border: 20px;
+}
+.palnosluxo{
+    
+   border: 20px;
+    background-color: antiquewhite; 
+    padding: 10px;
+    border-radius: 10px;
+
+}
 @media (max-width: 700px) {
   body{
     display: flex;
