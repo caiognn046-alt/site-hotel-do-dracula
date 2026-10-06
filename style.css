@@ -81,10 +81,10 @@ img{
   height: 100px;
   
   position: relative;
-  animation: mymove 5s infinite;
+  animation: subiredecer 5s infinite;
   font-size: 100px;
 }
-@keyframes mymove {
+@keyframes subiredecer {
   0%   {top: 0px;}
   25%  {top: 200px;}
   75%  {top: 50px}
