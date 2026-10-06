@@ -76,6 +76,20 @@ img{
     border-radius: 10px;
 
 }
+.caixab {
+  width: 100px;
+  height: 100px;
+  
+  position: relative;
+  animation: mymove 5s infinite;
+  font-size: 100px;
+}
+@keyframes mymove {
+  0%   {top: 0px;}
+  25%  {top: 200px;}
+  75%  {top: 50px}
+  100% {top: 100px;}
+}
 @media (max-width: 700px) {
   body{
     display: flex;
